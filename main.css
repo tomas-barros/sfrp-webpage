@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Heebo', sans-serif;
+}
+
+h1 {
+    color: #dae1e7;
+    font-weight: 900;
+    font-size: 33pt;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    background: url(https://vignette.wikia.nocookie.net/gtawiki/images/d/dd/San_Fierro_Overview.jpg/revision/latest?cb=20080802031811) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    filter: blur(100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-cont .btn {
+    margin-right: 10px;
+}
+
+.btn {
+    background-color: aliceblue;
+    padding: 12px 16px;
+    color: #dae1e7;
+    transition: all 0.3s ease;
+    font-size: 14pt;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.primary {
+    background-color: #142850;
+    color: #dae1e7;
+}
+
+.primary:hover {
+    background-color: #224486;
+}
+
+.secondary {
+    color: #142850;
+    background-color: #dae1e7;
+}
+
+.secondary:hover {
+    color: #142850;
+    background-color: #cde0fd;
+}
